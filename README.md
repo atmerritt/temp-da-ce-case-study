@@ -20,6 +20,7 @@ To better understand the structure of the course check out the following 3 slide
 
 - [01-lesson-plans](https://github.com/ironhack-edu/temp-da-ce-case-study/tree/master/01-lesson-plans) subfolder has teacher-facing materials.
 - [02-lean-lessons](https://github.com/ironhack-edu/temp-da-ce-case-study/tree/master/02-lean-lessons) subfolder has student-facing materials.
+- [databases]() - Use these databases for lesson, activities and lab.
 
 <br/><br/>
 
