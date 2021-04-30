@@ -1,4 +1,4 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
+![logo_ironhack_blue 7](https://user-images.githubusercontent.com/60669832/116674800-61c60f00-a9a5-11eb-887d-71a82f0ac643.png)
 
 # Data Analytics | Curriculum Engineer Case Study
 
