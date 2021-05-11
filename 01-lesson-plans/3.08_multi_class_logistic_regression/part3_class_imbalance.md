@@ -11,6 +11,55 @@ This will be a combination of a mini lecture, a mini lab, and a discussion.
 
 ### Mini lecture
 
+As a primer for dealing with and understanding class imbalance, we have to introduce model evaluation metrics beyond simply accuracy. We can do this using a very simple dataset, generated with `make_classification` in `sklearn`:
+```python
+# create dataset
+X_balanced, y_balanced = make_classification(n_classes=3, weights=None, n_samples=1000, 
+                                             n_features=3, n_redundant=0, n_informative=3,
+                                             n_clusters_per_class=1, class_sep=2, 
+                                             random_state=0, flip_y=0.01, hypercube=False)
+```
+
+As we can see in the pair grid below, we have reasonable separation between classes and we should be able to proceed with classification:
+
+![Class distribution](classes_pairgrid.png)
+
+For this particular dataset, we can train a logistic regression classifier, and the accuracy that we get on the test set is 88.8%. However, we have multiple classes and this doesn't tell us very much! A confusion matrix is more illuminating:
+
+![Confusion matrix](heatmap_test.png)
+
+Now we can see that the classifier does pretty well and *most* samples are classified correctly across all classes. Let's define a few more metrics to make this clearer:
+
+#### Recall
+For a given class, this is the fraction of true class members that were correctly identified, or:
+```
+recall = (True Positives) / (True Positives + False Negatives)
+```
+
+
+#### Precision
+For a given predicted label, this is the fraction that are correct, or:
+```
+precision = (True Positives) / (True Positives + False Positives)
+```
+
+#### F1 (F-beta)
+The F1 score is an average of precision and recall. Its generalized version, F-beta, allows the user to specify which parameter (recall vs precision) is more important, and gives that one heavier weight.
+
+Ask students if they can think of any real-world cases where recall might be more important than precision, and vice versa!
+
+#### combining scores
+These scores can be computed for individual classes. But if we want a summary score for the model as a whole, we have to choose how to combine the information. Generally the final score will be an average, but we have options:
+* `macro`: each class gets equal weight, meaning you compute a score within an individual class and then average across classes.
+* `micro`: each sample gets equal weight, so you do not split by class. Note this ends up giving greater weight to larger classes.
+
+For this particular dataset, the combined scores are:
+* Recall: 88.7%
+* Precision: 89.9%
+* F1: 88.9%
+
+(in this case they are the same for macro and micro because our classes are balanced -- but we need to introduce the concept before the students start on the lab!)
+
 ---
 
 ### Mini lab
