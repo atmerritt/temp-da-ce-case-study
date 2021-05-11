@@ -18,11 +18,11 @@ The following notebook is meant to guide the students through multi-class classi
 
 XXXXX LINK TO NOTEBOOK XXXXX
 
-**DATA**
+#### DATA
 For continuity with the rest of the unit (and with the previous unit) they can work with the 
 [Sakila Sample Database](https://dev.mysql.com/doc/sakila/en/sakila-structure.html) representing DVD rentals.
 
-**GOALS**
+#### GOALS
 Students will attempt to train a logistic regression model to classify the genre of a movie based on available information about it. 
 They can choose whether to model each available genre on its own or to combine some (for example "family" and "children" or etc), and can also
 decide which extension to multi-class classification to apply.
