@@ -57,6 +57,10 @@ In this part of the lesson we'll use the classic [Iris Dataset](https://archive.
 can be read in easily with `sklearn`'s built-in function `load_iris()`, which also serves to highlight the collection of 
 datasets that `sklearn` provides access to (these are generally simple and over-used datasets, but they can be a very useful learning tool).
 
+#### Notes to instructor:
+* For the exploratory data analysis, you can walk the students through creating a histogram and a boxplot for one of the features (in case a refresher on these visualization methods is useful), and then have them explore the rest on their own. 
+* The instructor's version of the lab has a complete EDA for your reference.
+
 ---
 
 ### Wrap-up discussion
