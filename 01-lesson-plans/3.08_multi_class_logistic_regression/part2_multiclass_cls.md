@@ -50,7 +50,7 @@ loss (and therefore cost) function to account for additional classes.
 
 The following notebook is meant to guide the students through multi-class classification:
 
-XXXXX LINK TO NOTEBOOK XXXXX
+`./ipynb/multiclass_cls_instructor.ipynb`
 
 #### DATA
 In this part of the lesson we'll use the classic [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/Iris/). The dataset 
