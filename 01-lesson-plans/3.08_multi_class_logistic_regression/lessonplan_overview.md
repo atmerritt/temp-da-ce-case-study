@@ -30,6 +30,8 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 **Instructor materials:** `part1_intro_discussion.md`  
 **Student materials:** n/a
 
+**Key concepts/goals:** Get warmed up and engaged with multi-class classification!
+
 
 ### Part 2: Diving into multi-class classification via logistic regression
 > :clock10: 10 min Lecture  
@@ -38,6 +40,9 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 
 **Instructor materials:** `part2_multiclass_cls.md`, `multiclass_cls_instructor.ipynb`  
 **Student materials:** `multiclass_cls.ipynb`
+
+
+**Key concepts/goals:** Understanding the difference between binary and multiclass classification, and getting comfortable working with these models in python.
 
 ---
 
@@ -52,6 +57,9 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 
 **Instructor materials:** `part3_class_imbalance.md`, `class_imbalance_instructor.ipynb`  
 **Student materials:** `class_imbalance.ipynb`
+
+
+**Key concepts/goals:** Understanding what class imbalance is and why it presents a challenge; Understand various model evaluation metrics and which ones are appropriate (or not) for imbalanced datasets.
 
 ---
 
@@ -70,6 +78,9 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 
 **Instructor materials:** `part4_real_world.md`, `real_world_instructor.ipynb`  
 **Student materials:** `real_world.ipynb`
+
+
+**Key concepts/goals:** Putting it all together! Combine multi-class classification with class imbalance with everything they've learned in the course so far.
 
 ---
 
