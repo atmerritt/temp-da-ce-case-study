@@ -66,7 +66,7 @@ For this particular dataset, the combined scores are:
 
 The following notebook is meant to guide the students through multi-class classification with class imbalance:
 
-XXXXX LINK TO NOTEBOOK XXXXX
+`./ipynb/class_imbalance_instructor.ipynb`
 
 #### DATA
 In this part of the lesson we'll build our own datasets using `sklearn`'s `make_classification`. This is a very useful function that will allow students
