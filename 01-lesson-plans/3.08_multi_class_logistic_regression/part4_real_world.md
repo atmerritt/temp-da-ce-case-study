@@ -16,7 +16,7 @@ The ideal structure here is:
 
 The following notebook is meant to guide the students through multi-class classification:
 
-XXXXX LINK TO NOTEBOOK XXXXX
+`./ipynb/real_world_instructor.ipynb`
 
 #### DATA
 For continuity with the rest of the unit (and with the previous unit) they can work with the 
