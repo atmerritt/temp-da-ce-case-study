@@ -56,3 +56,9 @@ XXXXX LINK TO NOTEBOOK XXXXX
 In this part of the lesson we'll use the classic [Iris Dataset](https://archive.ics.uci.edu/ml/datasets/Iris/). The dataset 
 can be read in easily with `sklearn`'s built-in function `load_iris()`, which also serves to highlight the collection of 
 datasets that `sklearn` provides access to (these are generally simple and over-used datasets, but they can be a very useful learning tool).
+
+---
+
+### Wrap-up discussion
+1. What do you think about the differences between OVR and multinomial logistic regression?
+2. Why do you think OVO isn't one of the multi-class options in `sklearn`'s logistic regression classifier?
