@@ -50,6 +50,9 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 > :clock10: 30 min Lab  
 > :clock10: 10 min Discussion to check understanding
 
+**Instructor materials:** `part3_class_imbalance.md`, `class_imbalance_instructor.ipynb`  
+**Student materials:** `class_imbalance.ipynb`
+
 ---
 
 :coffee: **BREAK**
@@ -63,7 +66,10 @@ and will be a combination of (brief) instructor-led lectures, guided exercises, 
 > :clock10: 15 min Discussion to check understanding  
 :coffee: **BREAK**  
 > :clock10: 30 min Lab: modeling  
-> :clock10: 15 min Discussion to check understanding
+> :clock10: 15 min Discussion to check understanding 
+
+**Instructor materials:** `part4_real_world.md`, `real_world_instructor.ipynb`  
+**Student materials:** `real_world.ipynb`
 
 ---
 
