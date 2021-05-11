@@ -89,3 +89,7 @@ The final section is the main one, where students will build their own imbalance
 3. Aside from various optimization choices, what else do you think could be done? 
 
 **Note to instructors:** The last question is meant to lead into a (brief) discussion of techniques to upsample smaller classes or downsample larger classes. Recommendation is to just mention various options and students can look into these on their own time.
+
+**Extra resources:**  
+* Evaluation metrics: students can read about [precision-recall curves](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_recall_curve.html) or [ROC curves and AUC scores](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html)
+* Dealing with class imbalance: [imblearn](https://imbalanced-learn.org/stable/) is a very useful package that integrates nicely with `sklearn` and provides a variety of resampling options, including e.g. (SMOTE)[https://imbalanced-learn.org/stable/over_sampling.html#from-random-over-sampling-to-smote-and-adasyn] upsampling.
